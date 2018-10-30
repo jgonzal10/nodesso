@@ -5,10 +5,10 @@ module.exports = {
 const sql = require("mssql");
 
 var dbConfig = {
-  user: "usrFramework",
-  password: "S3curity307!@#k8y5",
-  server: "bmwm3.rsb.org.br",
-  database: "dbFramework"
+  user: "user",
+  password: "sso",
+  server: "jgoserver",
+  database: "dbsso"
 };
 //Function to connect to database and execute query
 function query(res, queryStr) {      
